@@ -8,6 +8,7 @@ public class conexao {
 public	Connection	getConnection() throws ClassNotFoundException	{
 		
 		try	{
+			DriverManager.registerDriver(new com.mysql.jdbc.Driver());
 			//Class.forName (" com.mysql.jdbc.Driver ");
 			//?useTimezone=true&serverTimezone=America/Sao_Paulo
 			return	(Connection) DriverManager.getConnection(	
