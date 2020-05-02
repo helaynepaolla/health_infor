@@ -5,7 +5,6 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>health_infor</name>
   <description>health_infor</description>
-  <packaging>war</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <resources>
